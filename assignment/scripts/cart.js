@@ -5,3 +5,8 @@ let basket = [];
 function addItem( item ){
   return true
 }
+
+function listItems
+for (var i = 0; i < basket.length; i++) {
+  basket[i]
+}
