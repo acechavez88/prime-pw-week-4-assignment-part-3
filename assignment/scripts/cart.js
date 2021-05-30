@@ -3,19 +3,22 @@ console.log('***** Cart Functions *****');
 // We want to see how you are testing your code!!!
 let basket = []; // setting variable basket to empty array.. tested in console..
 function addItem( item ){
+  basket.push('kiwi'); // push item to end of array..
   return true
 }
-console.log(`Basket is ${basket}`);
-console.log('Adding apples (expect true)', addItem('apples'));
 
-function listItems ('item'){ // updated input with string for var listitem 
-for (let i = 0; i < basket.length; i++) {
-  basket[i]
+console.log(`Basket is empty ${basket}`);
+console.log('Adding apples (expect true)', addItem('apples')); // test to check basket..
+console.log('Adding apples (expect true)', addItem('oranges'));
+console.log(`Basket is now full${basket}`);
+
+function listItems (item){ // updated input with string for var listitem
+for (let i = 0; i < basket.length; i++)
+
+return true
 }
-return true;{
-}
-console.log('Test- items in basket',basket());
-}
+console.log('Test- items in basket', basket());
+
 function empty (){
   return empty
 }
