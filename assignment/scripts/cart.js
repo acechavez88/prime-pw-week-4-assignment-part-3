@@ -1,14 +1,14 @@
 console.log('***** Cart Functions *****');
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
-let basket = [];
+let basket = []; // setting variable basket to empty array.. tested in console..
 function addItem( item ){
   return true
 }
 console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
 
-function listItems (){
+function listItems ('item'){ // updated input with string for var listitem 
 for (let i = 0; i < basket.length; i++) {
   basket[i]
 }
